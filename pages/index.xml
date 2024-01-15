@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Exformal Records</title><link>exformal.art/pages/</link><description>Recent content in Pages on Exformal Records</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 14 Jan 2024 14:50:20 +0100</lastBuildDate><atom:link href="exformal.art/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>About Exformal</title><link>exformal.art/pages/about/</link><pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate><guid>exformal.art/pages/about/</guid><description>Exformal is a platform for sounds, music and text that challenge our notion of the real by directly engaging with it. We recognise that the segregation of objects, which we hitherto have mistaken for a world view, is one big joke on ourselves. We stare into the bulbous eyes of reality and tell it like it is: Show’s over, buddy…
-In short, Exformal is like the venerable Dr. Faustroll who shrinks to the size of a mite to examine a drop of water up close:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Exformal Records</title>
+    <link>exformal.art/pages/</link>
+    <description>Recent content in Pages on Exformal Records</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 14:50:20 +0100</lastBuildDate>
+    <atom:link href="exformal.art/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Exformal</title>
+      <link>exformal.art/pages/about/</link>
+      <pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate>
+      <guid>exformal.art/pages/about/</guid>
+      <description>Exformal is a platform for sounds, music and text that challenge our notion of the real by directly engaging with it. We recognise that the segregation of objects, which we hitherto have mistaken for a world view, is one big joke on ourselves. We stare into the bulbous eyes of reality and tell it like it is: Show’s over, buddy…&#xA;In short, Exformal is like the venerable Dr. Faustroll who shrinks to the size of a mite to examine a drop of water up close:</description>
+    </item>
+  </channel>
+</rss>
