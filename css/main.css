@@ -140,6 +140,7 @@ blockquote {
   margin-left: 20px;
   padding-left: 15px;
   text-align: justify;
+  text-justify: inter-word;
   color: var(--quote-color);
 }
 
@@ -263,6 +264,11 @@ audio {
 }
 
 @media (max-width: 768px) {
+  blockquote {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
   article {
     margin: 2em 5%;
     padding: 1em;
