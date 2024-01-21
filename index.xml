@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Exformal Records</title>
-    <link>https://exformal.art/</link>
+    <link>https://www.exformal.art/</link>
     <description>Recent content in Home on Exformal Records</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://exformal.art/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.exformal.art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Exformal</title>
-      <link>https://exformal.art/pages/about/</link>
+      <link>https://www.exformal.art/pages/about/</link>
       <pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate>
-      <guid>https://exformal.art/pages/about/</guid>
-      <description>Exformal is a platform for sounds, music and text that challenge our notion of the real by directly engaging with it.&#xA;In short, Exformal is like the venerable Dr. Faustroll who shrinks to the size of a mite to examine a drop of water up close:&#xA;And having shrunk to the classic size of a mite, as a paradigm of smallness, he traveled along the length of a cabbage leaf, paying no attention to his fellow mites or to the magnified aspect of his surroundings, until he encountered the Water.</description>
+      <guid>https://www.exformal.art/pages/about/</guid>
+      <description>Comprehend without your head // and without your ears, listen // to noiseless, unmouthed words. — Attar of Nishapur, The Conference of The Birds (1177) Exformal is a platform for sounds, music and text that challenge our notion of the real by directly engaging with it.&#xA;Getting in touch Listen, we are about to tell you what our email address is.&#xA;But before you sit down and doctor an email, let us be frank: You are a good person, you deserve love and attention.</description>
     </item>
   </channel>
 </rss>
