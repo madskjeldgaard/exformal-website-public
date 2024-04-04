@@ -1,5 +1,5 @@
 // Define the image path
-const imagePath = '/img/lillehimmel1.jpg'; // Replace with your actual image path
+const imagePath = '/img/disco.jpg'; // Replace with your actual image path
 
 // START OF THREEJS SETUP
 // Assuming canvasWidth, canvasHeight, and threeJsContainerId are defined in the shortcode
