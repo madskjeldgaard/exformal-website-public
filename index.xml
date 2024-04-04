@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Exformal Records</title>
-    <link>www.exformal.art/</link>
+    <link>https://www.exformal.art/</link>
     <description>Recent content in Home on Exformal Records</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Jan 2024 14:50:20 +0100</lastBuildDate>
-    <atom:link href="www.exformal.art/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.exformal.art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Exformal</title>
-      <link>www.exformal.art/pages/about/</link>
+      <link>https://www.exformal.art/pages/about/</link>
       <pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate>
-      <guid>www.exformal.art/pages/about/</guid>
+      <guid>https://www.exformal.art/pages/about/</guid>
       <description>Exformal is a platform for sounds, music and text.&#xA;We aspire to be like the venerable Dr. Faustroll who shrinks to the size of a mite to examine a drop of water up close:&#xA;And having shrunk to the classic size of a mite, as a paradigm of smallness, he traveled along the length of a cabbage leaf, paying no attention to his fellow mites or to the magnified aspect of his surroundings, until he encountered the Water.</description>
     </item>
   </channel>
