@@ -4,7 +4,7 @@
     <title>Home on Exformal Records</title>
     <link>https://exformal.art/</link>
     <description>Recent content in Home on Exformal Records</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Jan 2024 14:50:20 +0100</lastBuildDate>
     <atom:link href="https://exformal.art/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://exformal.art/pages/about/</link>
       <pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate>
       <guid>https://exformal.art/pages/about/</guid>
-      <description>Exformal is a platform for sounds, music and text.&#xA;We aspire to be like the venerable Dr. Faustroll who shrinks to the size of a mite to examine a drop of water up close:&#xA;And having shrunk to the classic size of a mite, as a paradigm of smallness, he traveled along the length of a cabbage leaf, paying no attention to his fellow mites or to the magnified aspect of his surroundings, until he encountered the Water.</description>
+      <description>Exformal is a platform for sounds, music and text.&#xA;&amp;#32;&amp;#32; </description>
     </item>
   </channel>
 </rss>
