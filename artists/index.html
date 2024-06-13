@@ -16,9 +16,11 @@
   :root {
     --primary-color: #FF1818;
     --secondary-color: #CCFF00;
-    --text-color: #333;
+    --text-color: #212529;
+  --secondary-text-color: #3c3836;
     --quote-color: #666;
-    --background-color: #fdfdfd;
+    --background-color: #ffffff;
+    --secondary-bg-color: #D4D4D4;
     --link-color: var(--text-color);
     --link-hover-color: var(--primary-color);
     --link-hover-bg-color: var(--secondary-color);
@@ -36,6 +38,8 @@
 <script src="/js/main.js"></script>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 </head>
 <body>
@@ -49,13 +53,24 @@
 
 
 
+
+<script>
+$(document).ready(function() {
+    $('.hamburger-menu').click(function() {
+        $('nav').toggle();
+    });
+});
+</script>
+  <div class="hamburger-menu">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
   <nav>
     <ul>
     <li>
-      <a href="/pages/about"></a>
+      <a href="/pages/newsletter">newsletter</a>
     </li>
-
-
   <li>
     <a href="https://exformalrecords.bandcamp.com/" target="_blank" rel="noopener noreferrer">
       <i class="fab fa-bandcamp"></i>
@@ -72,6 +87,14 @@
 
 
 
+
+
+
+  <li>
+    <a href="https://mastodon.social/@exformal" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-mastodon"></i>
+    </a>
+  </li>
 
     </ul>
   </nav>
@@ -96,9 +119,36 @@
 <div class="site-footer">
   <p>&copy; 2024 Exformal Records. All Rights Reserved.</p>
 
+  <p>Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and the <a href="https://github.com/madskjeldgaard/exformal-hugo-theme" target="_blank" rel="noopener">Exformal Theme</a>.</p>
+
   <ul class="footer-links">
-    <li><a href="https://exformal.art/">Exformal Records</a></li>
+  <li>
+    <a href="https://exformalrecords.bandcamp.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-bandcamp"></i>
+    </a>
+  </li>
+
+
+
+  <li>
+    <a href="https://instagram.com/exformalrecords" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </li>
+
+
+
+
+
+
+  <li>
+    <a href="https://mastodon.social/@exformal" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-mastodon"></i>
+    </a>
+  </li>
+
   </ul>
+
 </div>
 
 
