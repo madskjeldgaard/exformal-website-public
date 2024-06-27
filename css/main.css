@@ -1,7 +1,76 @@
+/* :root { */
+/*   --data-font: {{ }} */
+/* } */
+
+/* jplayer */
+.jp-play {
+  /* border-radius: 0 0 5px; */
+  background-color: var(--background-color);
+  padding: 0.25em;
+  font-size: 1.5em;
+}
+
+.release-audio{
+  margin: 1em 0;
+}
+
+.jp-title{
+  padding: 0 1em;
+}
+
+.jp-controls{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  color: var(--text-color);
+  font-size: 0.75em;
+}
+
+.jp-currenttime{
+  margin-right: 1em;
+}
+
+.jp-duration{
+  margin-left: 1em;
+}
+
+.jp-progress {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+}
+
+.jp-seek-bar {
+  width: 100%;
+  height: 100%;
+}
+
+.jp-play-bar {
+  height: 100%;
+  background: #0095dd;
+}
+
+/*
+* Animations
+*/
+.zoom-on-hover {
+  transition: transform 0.5s ease-in-out;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Used to list releases among other things */
+th {
+  text-align: left;
+}
+
 body {
   font-family: 'Merriweather', serif;
   /* Merriweather for a classic, readable look */
-  font-size: 20px;
+  font-size: 18px;
   /* Comfortable reading size */
   line-height: 1.8;
   /* Improved line spacing for readability */
@@ -53,23 +122,47 @@ a:focus {
   font-weight: 700;
 }
 
-.buylink-container {
-  margin: 1em;
+.buy-button {
+  background-color: var(--background-color);
+  color: var(--link-hover-color);
+  border: 1px solid var(--link-hover-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-a.buylink {
-  color: var(--secondary-color);
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
-  transition: color 0.5s ease, padding 1.0s ease;
-  padding: 0.5em;
-  margin: 2.5em;
-  font-size: 1.0;
-  font-weight: bold;
+
+.cover-button-container{
+  padding: 0em 0;
+  display: inline-block;
+}
+
+.cover-button {
+  background-color: var(--background-color);
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  border-radius: 10px;
-  /* center it */
+  display: inline-block;
+  font-size: 0.9em;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cover-button:hover{
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.buy-button:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .centered-text {
@@ -92,6 +185,15 @@ a.buylink {
 
 .release-content {
   padding-top: 1em;
+}
+
+/* Single release */
+
+/* .release-title{ } */
+
+.release-artist-header {
+  font-weight: normal;
+  font-style: italic;
 }
 
 /* Disable all hover and f ocus for image links */
@@ -172,10 +274,18 @@ p {
   /* Space between paragraphs */
 }
 
+.release-cover-image{
+  /* Shadow */
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+  margin-bottom: 1em;
+
+}
+
 p.release-cover-caption,
 p.photo-caption {
   font-size: 0.75em;
-  text-align: center;
+  font-family: Helvetica, sans-serif;
+  text-align: right;
   margin: 0;
   padding: 0;
 }
@@ -200,7 +310,7 @@ blockquote {
   font-style: italic;
   margin: 20px 0;
   padding: 15px;
-  border-left: 0px solid #ccc;
+  border-left: 0px solid --var(grey);
   text-align: justify;
   text-justify: inter-word;
   color: var(--quote-color);
@@ -228,7 +338,7 @@ blockquote {
   /* Responsive image scaling */
   height: auto;
   /* Maintain aspect ratio */
-  border-radius: 5px;
+  border-radius: 3px;
   /* Optional: Adds rounded corners to the image */
 }
 
@@ -284,7 +394,7 @@ blockquote {
   /* Space between items */
   padding: 10px;
   /* Padding around each item */
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid --var(grey);
   /* Bottom border for each item */
 }
 
@@ -292,17 +402,15 @@ blockquote {
 /* metadata */
 .release-metadata {
   font-size: 0.9em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  text-align: left;
 }
 
 .release-cat-text {
   font-size: 0.66em;
   background: var(--secondary-bg-color);
   color: var(--secondary-text-color);
-  padding: 1em;
-  margin: 2em;
+  /* padding: 1em; */
+  /* margin: 2em; */
 }
 
 .release-cat-text h4 {
@@ -310,21 +418,18 @@ blockquote {
   padding: 0;
 }
 
-img.release-cover-image {
-  margin: 1em 0;
-}
+/* Uncomment to set items side by side */
 
 .release-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 }
 
-.release-info ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.release-info .cover-item {
+  padding: 1em;
 }
+
 
 @media (min-width: 768px) {
   .release-info {
@@ -447,8 +552,8 @@ img.website-logo {
 
 .audio-player {
   background-color: var(--background-color);
-  border: 1px solid var(--text-color);
-  border-radius: 5px;
+  border: none;
+  border-radius: 3px;
   width: 100%;
   max-width: 600px;
 }
@@ -462,8 +567,18 @@ img.website-logo {
 /* Customizing the audio player controls */
 audio {
   width: 100%;
-
 }
+
+audio::-webkit-media-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
 
 audio::-webkit-media-controls-panel {
   background-color: var(--background-color);
@@ -500,9 +615,9 @@ textarea {
   /* Spacing inside the input fields */
   margin-bottom: 1em;
   /* Space between input fields */
-  border: 1px solid #ccc;
+  border: 1px dashed --var(grey);
   /* Border around input fields */
-  border-radius: 5px;
+  border-radius: 3px;
   /* Rounded corners for input fields */
   font-size: 1em;
   /* Font size for input fields */
@@ -514,7 +629,7 @@ button {
   /* Spacing inside the buttons */
   border: none;
   /* Removes default button border */
-  border-radius: 5px;
+  border-radius: 3px;
   /* Rounded corners for buttons */
   font-size: 1em;
   /* Font size for buttons */
@@ -546,8 +661,8 @@ button:hover {
 .portfolio-grid {
   padding: 1em;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
+  gap: 1em;
   grid-auto-rows: auto;
 }
 
@@ -563,8 +678,31 @@ button:hover {
   position: relative;
 }
 
+.image-wrapper.has-alt-image .base-image,
+.image-wrapper.has-alt-image .alt-image {
+  position: absolute;
+  transition: opacity 0.25s linear;
+}
+
+.image-wrapper.has-alt-image .base-image {
+  opacity: 1;
+  z-index: 1;
+}
+
+.image-wrapper.has-alt-image .alt-image {
+  opacity: 0;
+  z-index: 2;
+}
+
+.image-wrapper.has-alt-image:hover .base-image {
+  opacity: 0;
+}
+
+.image-wrapper.has-alt-image:hover .alt-image {
+  opacity: 1;
+}
+
 .portfolio-item img {
-  transition:  transform 0.5s;
   object-fit: cover;
   position: absolute;
   width: 100%;
@@ -573,14 +711,65 @@ button:hover {
   left: 0;
 }
 
-.portfolio-item:hover img {
-  transform: scale(1.1);
+/* Remove text decoration from links in .portfolio-text-top */
+.portfolio-text-top a,
+.portfolio-description a {
+  text-decoration: none;
+  font-weight: normal;
 }
 
-.portfolio-item .portfolio-description {
-  padding: 10px;
+.portfolio-text-bottom p {
+  font-size: 0.75em !important;
+}
+
+/* Metadata etc in releases */
+
+.release-metadata {
+  /* margin: 0 1em; */
+  padding: 0 1em 1em 1em;
+  border: 1px dashed var(--text-color);
+  border-radius: 3px;
+}
+
+.release-cat-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9em;
+  text-justify: inter-word;
+  text-align: left;
+  color: var(--grey);
+  background-color: var(--background-color);
+  margin: 0 0 1em 0;
+}
+
+.metadata-block {
+  color: var(--grey);
+  font-family: Helvetica, sans-serif;
+}
+
+.table {
+  display: table;
+
+  /* Make all text uppercase */
+  /* text-transform: uppercase; */
   font-size: 0.75em;
-  box-sizing: border-box;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  width: 50%;
+  text-align: left;
+}
+
+.header .cell,
+.meta-cat-header {
+  text-align: left;
+  font-size: 1.125em;
+  padding: 1em 0;
 }
 
 @media (max-width: 768px) {
@@ -589,6 +778,22 @@ button:hover {
     margin-top: 1em;
   }
 
+  .release-info .cover-item {
+    padding: 1em 0;
+  }
+
+  .cover-item.release-metadata {
+    padding: 1em;
+  }
+
+  /* Disable flex for mobile */
+  .release-info {
+    display: block;
+  }
+
+  .release-cover-image{
+    margin: 1em 0;
+  }
 
   nav {
     display: none;
@@ -603,7 +808,7 @@ button:hover {
   nav ul li {
     display: block;
     padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid --var(grey);
   }
 
   nav ul li a {
