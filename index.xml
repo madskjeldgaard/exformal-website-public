@@ -22,25 +22,4 @@
  Submit
  &lt;/button>
  &lt;/div>
-&lt;/form></description></item><item><title>Under the pavement, the beach.</title><link>https://exformal.art/about/</link><pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate><guid>https://exformal.art/about/</guid><description>&lt;p>Exformal Records is a platform for experimental music, sounds and listening practices.&lt;/p>
-&lt;p>No demos, sorry, and also: Expect a very slow response time.&lt;/p>
-
-
-&lt;style>
- #span-24f960e4.cloaked-e-mail:before {
- content:attr(data-domain) "\0040" attr(data-user);
- unicode-bidi:bidi-override;
- direction:rtl;
- }
-&lt;/style>
-&amp;#32;&lt;span class="cloaked-e-mail" data-user="ih" data-domain="tra.lamrofxe" id="span-24f960e4">&lt;/span>&amp;#32;
-
-&lt;script id="script-24f960e4">
- var scriptTag = document.getElementById("script-24f960e4");
- var link = document.createElement("a");
- var address = "ih".split('').reverse().join('') + "@" + "tra.lamrofxe".split('').reverse().join('');
- link.href = "mailto" + ":" + address;
- link.innerText = address.split('?')[0];
- scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);
- scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)
-&lt;/script></description></item></channel></rss>
+&lt;/form></description></item></channel></rss>
