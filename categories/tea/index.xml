@@ -1,2 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tea on Exformal Records</title><link>https://exformal.art/categories/tea/</link><description>Recent content in Tea on Exformal Records</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://exformal.art/categories/tea/index.xml" rel="self" type="application/rss+xml"/><item><title>Empty Cloud</title><link>https://exformal.art/releases/mads-kjeldgaard-empty-cloud/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://exformal.art/releases/mads-kjeldgaard-empty-cloud/</guid><description>&lt;p>The music of &lt;em>Empty Cloud&lt;/em> was written and composed specifically to be played in the background in a room, quietly, or at least ideally at a barely audible volume. It’s music that’s just there, plain and simple, and if you forget about it, it&amp;rsquo;s fine, don&amp;rsquo;t worry, it will let itself be known when it needs to.&lt;/p>
-&lt;p>The large-scale 12-hour structure of the release is broken down into smaller one-hour cycles with four parts in each of them, each composed of minimalist melodies pacing slowly through time at a sloth-like tempo. With everything constrained to different pentatonic scales (changing between each part of the release), a certain aimlessness ensures that the direction of the wandering notes is one of no direction at all — circular or maze-like even.&lt;/p></description></item></channel></rss>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style>
+ .jp-play {
+ 
+ background-color: white;
+ color: black;
+ padding: 0;
+ margin: 0;
+ font-size: 3.0em;
+ }
+
+ .jp-title {
+ padding: 0 1em;
+ }
+
+ .jp-controls {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ font-family: Helvetica, sans-serif;
+ color: black;
+ font-size: 0.75rem;
+ margin: 0;
+ margin-left: 0;
+ padding: 0;
+ }
+
+ .jp-currenttime {
+ margin-right: 1em;
+ }
+
+ .jp-duration {
+ margin-left: 1em;
+ }
+
+ .jp-progress {
+ width: 300px;
+ height: 5px;
+ background: grey;
+ }
+
+ .jp-seek-bar {
+ width: 100%;
+ height: 100%;
+ }
+
+ .jp-play-bar {
+ height: 100%;
+ background: blue;
+ }
+&lt;/style>
+
+
+&lt;div id="jquery_jplayer_1740175741934670000" class="jp-jplayer">&lt;/div>
+
+&lt;div id="jp_container_1740175741934670000" class="jp-audio" role="application" aria-label="media player">
+ &lt;div class="jp-type-single">
+ &lt;div class="jp-gui jp-interface">
+ &lt;div class="jp-controls hugo-jp-controls">
+ &lt;button class="jp-play hugo-jp-play" role="button" tabindex="0">▶&lt;/button>
+
+ 
+ &lt;div class="jp-title hugo-jp-title" aria-label="title">Mads Kjeldgaard – Empty Cloud Part 01&lt;/div>
+ 
+
+ 
+ &lt;div class="hugo-jp-progress">
+ &lt;div class="hugo-jp-play-bar">&lt;/div>
+ &lt;/div>
+ 
+
+ 
+ &lt;div class="jp-duration hugo-jp-duration" role="timer" aria-label="duration">&amp;nbsp;&lt;/div>
+ 
+
+
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="jp-no-solution">
+ &lt;p>A problem occurred with the audio player. Here is some debug info:&lt;/p></description></item></channel></rss>
