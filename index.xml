@@ -90,9 +90,9 @@
 &lt;/style>
 
 
-&lt;div id="jquery_jplayer_1747128488317110000" class="jp-jplayer">&lt;/div>
+&lt;div id="jquery_jplayer_1747130722452422000" class="jp-jplayer">&lt;/div>
 
-&lt;div id="jp_container_1747128488317110000" class="jp-audio" role="application" aria-label="media player">
+&lt;div id="jp_container_1747130722452422000" class="jp-audio" role="application" aria-label="media player">
  &lt;div class="jp-type-single">
  &lt;div class="jp-gui jp-interface">
  &lt;div class="jp-controls hugo-jp-controls">
@@ -123,16 +123,16 @@
 &lt;p>JB: We were both invited to do a presentation concert at the conservatory, and I think it was there I first heard about your solo project, where I was super inspired and thought: &lt;em>How would I play to this?&lt;/em> There’s no need for anything to be added here, but I love it, and I want to be part of it. I think we met each other on the street here. We’re neighbors. And I had a rehearsal space right here on Nørrebro, and I think we just thought, why don’t we play together more often, just like a meditation or something, because your (AV) solo project was very much about that. It’s a kind of healing or a meditation of sorts—a way to enter a particular state of mind that makes you feel good. I had been thinking a lot about how music can have healing abilities.&lt;/p></description></item><item><title>Space In Between</title><link>https://exformal.art/releases/mads-kjeldgaard-space-in-between/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://exformal.art/releases/mads-kjeldgaard-space-in-between/</guid><description>&lt;p>I approach it like a child: pressing the keys as if for the first time, absorbing the esoteric output that seeps through the wooden enclosure of my pianette. Via the medium of vibrations, it ping pongs in the room and envelops my body. Then silence, or, what we call silence: the trivial sounds of the city. A child crying in a nearby playground, a moped speeding past my apartment building, two old friends wandering down the road as they talk to each other in that unmistakable tonality of complaint.&lt;/p></description></item><item><title>Contact</title><link>https://exformal.art/contact/</link><pubDate>Sun, 14 Jan 2024 14:50:20 +0100</pubDate><guid>https://exformal.art/contact/</guid><description>&lt;p>
 
 &lt;style>
- #span-5f1645fb.cloaked-e-mail:before {
+ #span-37234876.cloaked-e-mail:before {
  content:attr(data-domain) "\0040" attr(data-user);
  unicode-bidi:bidi-override;
  direction:rtl;
  }
 &lt;/style>
-&amp;#32;&lt;span class="cloaked-e-mail" data-user="ih" data-domain="tra.lamrofxe" id="span-5f1645fb">&lt;/span>&amp;#32;
+&amp;#32;&lt;span class="cloaked-e-mail" data-user="ih" data-domain="tra.lamrofxe" id="span-37234876">&lt;/span>&amp;#32;
 
-&lt;script id="script-5f1645fb">
- var scriptTag = document.getElementById("script-5f1645fb");
+&lt;script id="script-37234876">
+ var scriptTag = document.getElementById("script-37234876");
  var link = document.createElement("a");
  var address = "ih".split('').reverse().join('') + "@" + "tra.lamrofxe".split('').reverse().join('');
  link.href = "mailto" + ":" + address;
