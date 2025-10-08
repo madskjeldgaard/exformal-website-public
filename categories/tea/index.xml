@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tea on Exformal Records</title><link>https://exformal.art/categories/tea/</link><description>Recent content in Tea on Exformal Records</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://exformal.art/categories/tea/index.xml" rel="self" type="application/rss+xml"/><item><title>Empty Cloud</title><link>https://exformal.art/releases/mads-kjeldgaard-empty-cloud/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://exformal.art/releases/mads-kjeldgaard-empty-cloud/</guid><description>&lt;p>The music of &lt;em>Empty Cloud&lt;/em> was written and composed specifically to be played in the background in a room, quietly, or at least ideally at a barely audible volume. It’s music that’s just there, plain and simple, and if you forget about it, it&amp;rsquo;s fine, don&amp;rsquo;t worry, it will let itself be known when it needs to.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tea on Exformal Records</title><link>https://exformal.art/categories/tea/</link><description>Recent content in Tea on Exformal Records</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://exformal.art/categories/tea/index.xml" rel="self" type="application/rss+xml"/><item><title>Empty Cloud</title><link>https://exformal.art/releases/mads-kjeldgaard-empty-cloud/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://exformal.art/releases/mads-kjeldgaard-empty-cloud/</guid><description>&lt;p&gt;The music of &lt;em&gt;Empty Cloud&lt;/em&gt; was written and composed specifically to be played in the background in a room, quietly, or at least ideally at a barely audible volume. It’s music that’s just there, plain and simple, and if you forget about it, it&amp;rsquo;s fine, don&amp;rsquo;t worry, it will let itself be known when it needs to.&lt;/p&gt;
 
 
 
@@ -17,7 +17,7 @@
 
 
 
-&lt;style>
+&lt;style&gt;
  .jp-play {
  
  background-color: white;
@@ -66,33 +66,33 @@
  height: 100%;
  background: blue;
  }
-&lt;/style>
+&lt;/style&gt;
 
 
-&lt;div id="jquery_jplayer_1755249530628905000" class="jp-jplayer">&lt;/div>
+&lt;div id="jquery_jplayer_1759939768002200000" class="jp-jplayer"&gt;&lt;/div&gt;
 
-&lt;div id="jp_container_1755249530628905000" class="jp-audio" role="application" aria-label="media player">
- &lt;div class="jp-type-single">
- &lt;div class="jp-gui jp-interface">
- &lt;div class="jp-controls hugo-jp-controls">
- &lt;button class="jp-play hugo-jp-play" role="button" tabindex="0">▶&lt;/button>
-
- 
- &lt;div class="jp-title hugo-jp-title" aria-label="title">Mads Kjeldgaard – Empty Cloud Part 01&lt;/div>
- 
+&lt;div id="jp_container_1759939768002200000" class="jp-audio" role="application" aria-label="media player"&gt;
+ &lt;div class="jp-type-single"&gt;
+ &lt;div class="jp-gui jp-interface"&gt;
+ &lt;div class="jp-controls hugo-jp-controls"&gt;
+ &lt;button class="jp-play hugo-jp-play" role="button" tabindex="0"&gt;▶&lt;/button&gt;
 
  
- &lt;div class="hugo-jp-progress">
- &lt;div class="hugo-jp-play-bar">&lt;/div>
- &lt;/div>
+ &lt;div class="jp-title hugo-jp-title" aria-label="title"&gt;Mads Kjeldgaard – Empty Cloud Part 01&lt;/div&gt;
  
 
  
- &lt;div class="jp-duration hugo-jp-duration" role="timer" aria-label="duration">&amp;nbsp;&lt;/div>
+ &lt;div class="hugo-jp-progress"&gt;
+ &lt;div class="hugo-jp-play-bar"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ 
+
+ 
+ &lt;div class="jp-duration hugo-jp-duration" role="timer" aria-label="duration"&gt;&amp;nbsp;&lt;/div&gt;
  
 
 
- &lt;/div>
- &lt;/div>
- &lt;div class="jp-no-solution">
- &lt;p>A problem occurred with the audio player. Here is some debug info:&lt;/p></description></item></channel></rss>
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="jp-no-solution"&gt;
+ &lt;p&gt;A problem occurred with the audio player. Here is some debug info:&lt;/p&gt;</description></item></channel></rss>
